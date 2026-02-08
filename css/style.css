@@ -1,0 +1,13 @@
+:root {
+  --p1-color: #d32f2f;
+  --p2-color: #1e3a8a;
+  --text-dark: #111;
+  --menubutton-backgroundcolor: black;
+}
+body {
+  font-family: 'Montserrat', system-ui,sans-serif;
+}
+button.menu {
+  background-color: var(--menubutton-backgroundcolor);
+  font-size
+}
