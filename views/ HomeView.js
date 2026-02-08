@@ -2,8 +2,8 @@ export default {
   proprs: ["start],
   template: `
            <div>
-           <button @click ="setPlayers(1)">1 Player</button>
-           <button @click ="setPlayers(2)">2 Players</button>
+           <button @click ="setPlayers(1)">Time attach</button>
+           <button @click ="setPlayers(2)">Battle mode</button>
            </div>`
         ,
       methods: {
