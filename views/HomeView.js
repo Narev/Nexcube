@@ -7,7 +7,7 @@ export default {
         ,
       methods: {
           setPlayers(amountOfPlayers) {
-            this.state.players = Array.from({length: amountOfPlayers)}, () => (
+            this.state.players = Array.from({length: amountOfPlayers}, () => (
               {
                 name: "",
                 time: 0,
