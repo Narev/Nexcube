@@ -1,5 +1,4 @@
 export default {
-  proprs: ["start],
   template: `
            <div>
            <button @click ="setPlayers(1)">Time attach</button>
