@@ -2,6 +2,7 @@
   --p1-color: #d32f2f;
   --p2-color: #1e3a8a;
   --text-dark: #111;
+  --text-lignt: #fff;
   --menubutton-backgroundcolor: black;
 }
 
@@ -11,6 +12,9 @@ body {
 
 button.menu {
   background-color: var(--menubutton-backgroundcolor);
+  color: var(--text-lignt);
+  width: 100%;
+
 }
 
 #landscape-blocker {

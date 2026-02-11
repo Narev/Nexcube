@@ -2,8 +2,8 @@ export default {
   template: `
            <header> <img src="./img/logo.jpg" alt="Company logo" class="logo-full" /> </header>
            <div>
-           <button @click ="setPlayers(1)">Time attach</button>
-           <button @click ="setPlayers(2)">Battle mode</button>
+           <button @click ="setPlayers(1)" class="menu">Time attach</button>
+           <button @click ="setPlayers(2)" class="menu">Battle mode</button>
            </div>`
         ,
       methods: {
