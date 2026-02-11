@@ -14,7 +14,9 @@ button.menu {
   background-color: var(--menubutton-backgroundcolor);
   color: var(--text-lignt);
   width: 100%;
-
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.25em;
 }
 
 #landscape-blocker {
