@@ -8,9 +8,17 @@
 
 body {
   font-family: 'Montserrat', system-ui, sans-serif;
+  margin:0px;
 }
 
-button.menu {
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 12px;
+}
+
+button.menu-item {
   background-color: var(--menubutton-backgroundcolor);
   color: var(--text-lignt);
   width: 100%;
