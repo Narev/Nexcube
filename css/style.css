@@ -4,10 +4,36 @@
   --text-dark: #111;
   --menubutton-backgroundcolor: black;
 }
+
 body {
-  font-family: 'Montserrat', system-ui,sans-serif;
+  font-family: 'Montserrat', system-ui, sans-serif;
 }
+
 button.menu {
   background-color: var(--menubutton-backgroundcolor);
-  font-size
+}
+
+#landscape-blocker {
+  position: fixed;
+  inset: 0;
+  background-color: #f8f4f1;
+  color: var(--text-dark);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+  z-index: 9999;
+}
+@media (orientation: landscape) {
+  #landscape-blocker {
+    display: flex;
+  }
+}
+
+@media (orientation: portrait) {
+  #landscape-blocker {
+    display: none;
+  }
 }
