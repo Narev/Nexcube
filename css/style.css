@@ -26,6 +26,7 @@ button.menu {
   font-size: 1.5rem;
   z-index: 9999;
 }
+
 @media (orientation: landscape) {
   #landscape-blocker {
     display: flex;
@@ -36,4 +37,12 @@ button.menu {
   #landscape-blocker {
     display: none;
   }
+}
+
+.logo-full {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
