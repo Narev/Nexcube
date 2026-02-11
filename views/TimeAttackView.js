@@ -9,7 +9,7 @@ export default {
         ,
       components:{
         PlayerScore
-      }
+      },
       methods: {
           setPlayers(amountOfPlayers) {
             this.state.players = Array.from({length: amountOfPlayers}, () => (

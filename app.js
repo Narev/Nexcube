@@ -5,8 +5,6 @@ const { createApp, reactive } = Vue;
 
 const state = reactive({view: "home",players: []});
 
-const headerComponent
-
 createApp({
   components: {
     Header,
